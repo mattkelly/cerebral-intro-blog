@@ -409,7 +409,7 @@ To delete it, run the following command:
 kops --state=s3://bucket-name delete cluster autoscaling-experiment.k8s.local --yes
 ```
 
-Now just recreate the test setup, starting from [the `kops` cluster creation][provision-a-test-cluster-on-aws] and ending after the [HPA is configured][configure-hpa]. 
+Now just recreate the test setup, starting from [the `kops` cluster creation](#provision-a-test-cluster-on-aws) and ending after the [HPA is configured](#configure-hpa). 
 
 #### Deploy Cerebral
 
